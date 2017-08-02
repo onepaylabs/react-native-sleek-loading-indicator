@@ -13,7 +13,6 @@ module.exports = React.createClass({
    render() {
       return (
          <View style={styles.loadingContainer}>
-            <Text style={styles.loadingText}>{this.props.text}</Text>
             <View style={styles.spinnerContainer}>
               <ActivityIndicator
                animating={true}
@@ -21,6 +20,7 @@ module.exports = React.createClass({
                color="#fff"
               />
             </View>
+            <Text style={styles.loadingText}>{this.props.text}</Text>
          </View>
       );
    }

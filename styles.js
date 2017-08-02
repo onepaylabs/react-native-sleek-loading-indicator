@@ -19,17 +19,16 @@ module.exports = StyleSheet.create({
    loadingContainer: {
      padding: 12,
      backgroundColor: '#000',
-     borderRadius: 8,
+     borderRadius: 5,
      opacity: .8,
      justifyContent: 'center',
      alignItems: 'center'
    },
 
    loadingText: {
-     fontWeight: 'bold',
      color: '#fff',
      textAlign: 'center',
-     fontSize: 22,
+     fontSize: 12,
    },
 
    spinnerContainer: {
